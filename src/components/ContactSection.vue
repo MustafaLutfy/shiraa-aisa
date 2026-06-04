@@ -18,7 +18,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from '@lucide/vue'
         <!-- Map -->
         <div class="relative overflow-hidden rounded-card h-[400px] bg-surface-dark border border-white/5">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.5!2d44.39!3d33.31!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE4JzM2LjAiTiA0NMKwMjMnMjQuMCJF!5e0!3m2!1sar!2siq!4v1"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.8!2d44.4551752!3d33.3011926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE4JzA0LjMiTiA0NMKwMjcnMTguNiJF!5e0!3m2!1sar!2siq!4v1"
             width="100%"
             height="100%"
             style="border:0; filter: invert(90%) hue-rotate(180deg) grayscale(20%);"
@@ -44,31 +44,31 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from '@lucide/vue'
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 flex-1">
             <!-- Phone 1 -->
             <a href="tel:+9647750880066"
-               class="flex items-start gap-4 p-5 bg-surface-dark border border-white/5 rounded-card hover:border-primary/30 transition-all duration-200 cursor-pointer group">
+               class="flex items-center gap-4 p-5 bg-surface-dark border border-white/5 rounded-card hover:border-primary/30 transition-all duration-200 cursor-pointer group">
               <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                 <Phone :size="18" class="text-primary" />
               </div>
               <div>
                 <p class="font-arabic text-white text-sm font-semibold mb-1" dir="rtl">الهاتف</p>
-                <p class="text-text-muted text-xs" dir="ltr">٠٧٧٥٠٨٨٠٠٦٦</p>
+                <p class="text-text-muted text-xs" dir="ltr">07750880066</p>
               </div>
             </a>
 
             <!-- Phone 2 -->
             <a href="tel:+9647888235599"
-               class="flex items-start gap-4 p-5 bg-surface-dark border border-white/5 rounded-card hover:border-primary/30 transition-all duration-200 cursor-pointer group">
+               class="flex items-center gap-4 p-5 bg-surface-dark border border-white/5 rounded-card hover:border-primary/30 transition-all duration-200 cursor-pointer group">
               <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                 <Phone :size="18" class="text-primary" />
               </div>
               <div>
                 <p class="font-arabic text-white text-sm font-semibold mb-1" dir="rtl">الهاتف</p>
-                <p class="text-text-muted text-xs" dir="ltr">٠٧٨٨٨٢٣٥٥٩٩</p>
+                <p class="text-text-muted text-xs" dir="ltr">07888235599</p>
               </div>
             </a>
 
             <!-- Email -->
             <a href="mailto:shiraaasia@gmail.com"
-               class="flex items-start gap-4 p-5 bg-surface-dark border border-white/5 rounded-card hover:border-primary/30 transition-all duration-200 cursor-pointer group">
+               class="flex items-center gap-4 p-5 bg-surface-dark border border-white/5 rounded-card hover:border-primary/30 transition-all duration-200 cursor-pointer group">
               <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                 <Mail :size="18" class="text-primary" />
               </div>
@@ -79,13 +79,13 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from '@lucide/vue'
             </a>
 
             <!-- Address -->
-            <div class="flex items-start gap-4 p-5 bg-surface-dark border border-white/5 rounded-card">
+            <div class="flex items-center gap-4 p-5 bg-surface-dark border border-white/5 rounded-card">
               <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
                 <MapPin :size="18" class="text-primary" />
               </div>
               <div>
                 <p class="font-arabic text-white text-sm font-semibold mb-1" dir="rtl">العنوان</p>
-                <p class="font-arabic text-text-muted text-xs" dir="rtl">شارع الجمعيات الفلاحية، بغداد، العراق</p>
+                <p class="font-arabic text-text-muted text-xs" dir="rtl">العراق - بغداد - كمب سارة - شارع الجمعية الفلاحية</p>
               </div>
             </div>
           </div>

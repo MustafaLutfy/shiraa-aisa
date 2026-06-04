@@ -13,7 +13,7 @@ const features = [
     icon: Truck,
     titleAr: 'توصيل سريع',
     titleEn: 'Fast Delivery',
-    descAr: 'خدمة توصيل سريعة وآمنة لجميع مناطق المملكة',
+    descAr: 'خدمة توصيل سريعة وآمنة االى جميع المحافظات العراقية',
     descEn: 'Fast and secure delivery across all regions',
   },
   {

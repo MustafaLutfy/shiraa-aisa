@@ -25,16 +25,7 @@ function close() {
     <div class="max-w-7xl mx-auto flex items-center justify-between h-[72px] px-6">
       <!-- Logo -->
       <router-link to="/" @click="close" class="flex items-center gap-3 cursor-pointer">
-        <!-- Sail Icon -->
-        <div class="flex items-end gap-[3px]">
-          <div class="w-[8px] h-[20px] bg-primary rounded-[2px] -skew-x-[8deg]"></div>
-          <div class="w-[8px] h-[26px] bg-primary-dark rounded-[2px] -skew-x-[8deg]"></div>
-          <div class="w-[8px] h-[32px] bg-primary rounded-[2px] -skew-x-[8deg]"></div>
-        </div>
-        <div class="leading-tight">
-          <div class="font-arabic text-white text-sm font-bold" dir="rtl">شراع اسيا</div>
-          <div class="font-heading text-text-muted text-[10px] font-semibold tracking-widest">SHIRAA ASIA</div>
-        </div>
+        <img src="/shiraa-asia-logo.png" alt="شراع اسيا" class="h-10 w-auto" />
       </router-link>
 
       <!-- Desktop Links -->

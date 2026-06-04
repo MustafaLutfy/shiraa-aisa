@@ -9,15 +9,7 @@ import { Phone, Mail, MapPin, Clock } from '@lucide/vue'
         <!-- Brand -->
         <div>
           <div class="flex items-center gap-3 mb-4">
-            <div class="flex items-end gap-[3px]">
-              <div class="w-[8px] h-[20px] bg-primary rounded-[2px] -skew-x-[8deg]"></div>
-              <div class="w-[8px] h-[26px] bg-primary-dark rounded-[2px] -skew-x-[8deg]"></div>
-              <div class="w-[8px] h-[32px] bg-primary rounded-[2px] -skew-x-[8deg]"></div>
-            </div>
-            <div class="leading-tight">
-              <div class="font-arabic text-white text-sm font-bold" dir="rtl">شراع اسيا</div>
-              <div class="font-heading text-text-muted text-[10px] font-semibold tracking-widest">SHIRAA ASIA</div>
-            </div>
+            <img src="/shiraa-asia-logo.png" alt="شراع اسيا" class="h-12 w-auto" />
           </div>
           <p class="font-arabic text-text-muted text-sm leading-relaxed" dir="rtl">
             لتجارة المواد الصحية والانشائية
@@ -56,7 +48,7 @@ import { Phone, Mail, MapPin, Clock } from '@lucide/vue'
             </a>
             <div class="flex items-start gap-3 text-text-muted text-sm" dir="rtl">
               <MapPin :size="16" class="shrink-0 text-primary mt-0.5" />
-              <span class="font-arabic">شارع الجمعيات الفلاحية، بغداد، العراق</span>
+              <span class="font-arabic">العراق - بغداد - كمب سارة - شارع الجمعية الفلاحية</span>
             </div>
           </div>
         </div>

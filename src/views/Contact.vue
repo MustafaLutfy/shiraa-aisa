@@ -22,7 +22,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from '@lucide/vue'
           <!-- Map -->
           <div class="relative overflow-hidden rounded-card h-[500px] bg-surface-dark border border-white/5">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.5!2d44.39!3d33.31!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE4JzM2LjAiTiA0NMKwMjMnMjQuMCJF!5e0!3m2!1sar!2siq!4v1"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.8!2d44.4551752!3d33.3011926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE4JzA0LjMiTiA0NMKwMjcnMTguNiJF!5e0!3m2!1sar!2siq!4v1"
               width="100%"
               height="100%"
               style="border:0; filter: invert(90%) hue-rotate(180deg) grayscale(20%);"
@@ -89,7 +89,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from '@lucide/vue'
                 </div>
                 <div>
                   <p class="font-arabic text-white text-sm font-semibold mb-1" dir="rtl">العنوان</p>
-                  <p class="font-arabic text-text-muted text-xs" dir="rtl">شارع الجمعيات الفلاحية، بغداد، العراق</p>
+                  <p class="font-arabic text-text-muted text-xs" dir="rtl">العراق - بغداد - كمب سارة - شارع الجمعية الفلاحية</p>
                 </div>
               </div>
 
