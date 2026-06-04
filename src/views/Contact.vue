@@ -100,7 +100,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from '@lucide/vue'
                 </div>
                 <div>
                   <p class="font-arabic text-white text-sm font-semibold mb-1" dir="rtl">ساعات العمل</p>
-                  <p class="font-arabic text-text-muted text-xs" dir="rtl">السبت - الخميس: ٩ ص - ١٠ م</p>
+                  <p class="font-arabic text-text-muted text-xs" dir="rtl">السبت - الخميس: ٧ ص - ٣ م</p>
                   <p class="font-arabic text-text-muted text-xs" dir="rtl">الجمعة: مغلق</p>
                 </div>
               </div>

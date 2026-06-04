@@ -60,7 +60,7 @@ import { Phone, Mail, MapPin, Clock } from '@lucide/vue'
             <div class="flex items-center gap-3 text-text-muted text-sm" dir="rtl">
               <Clock :size="16" class="shrink-0 text-primary" />
               <div class="font-arabic">
-                <div>السبت - الخميس: ٩ ص - ١٠ م</div>
+                <div>السبت - الخميس: ٧ ص - ٣ م</div>
                 <div>الجمعة: مغلق</div>
               </div>
             </div>
